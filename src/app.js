@@ -26,3 +26,10 @@ return studentsScholarship
 }
 
 console.log(avggradestud(students))
+
+//part 4
+function dark_mode(){
+    const dark_toggle = document.querySelector(".light-theme")
+    return dark_toggle.classList.toggle("dark-theme")
+}
+dark_mode()
